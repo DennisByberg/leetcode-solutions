@@ -1,5 +1,5 @@
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-
+// En: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// Sv: Givet en array av heltal nums och ett heltal target, returnera index för de två talen så att de summerar till target.
 export function twoSum(nums: number[], target: number): number[] {
   for (let i = 0; i < nums.length - 1; i++) {
     for (let j = i + 1; j < nums.length; j++) {
@@ -10,5 +10,3 @@ export function twoSum(nums: number[], target: number): number[] {
   }
   return [0, 1]; // Return [0,1] if its not a match...
 }
-
-console.log(twoSum([1, 1, 1, 5], 6));
