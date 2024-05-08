@@ -15,6 +15,6 @@ describe(argumentsLength, () => {
   });
 
   it("Should return 3 if i input an empty object, null and the string '3' in the array", () => {
-    expect(argumentsLength([{}, null, "3"])).toEqual(3);
+    expect(argumentsLength({}, null, "3")).toEqual(3);
   });
 });

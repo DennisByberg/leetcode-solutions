@@ -4,13 +4,5 @@
 type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
 
 export function argumentsLength(...args: JSONValue[]): number {
-  let count = 0;
-  args.forEach((arg) => {
-    if (Array.isArray(arg)) {
-      count += argumentsLength(...arg);
-    } else {
-      count++;
-    }
-  });
-  return count;
+  return args.length;
 }
