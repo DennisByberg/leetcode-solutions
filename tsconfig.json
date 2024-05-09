@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "lib": ["DOM", "DOM.Iterable", "ES6"],
+    "lib": ["DOM", "DOM.Iterable", "ES6", "ES2020.BigInt"],
     "module": "ES6",
     "skipLibCheck": true,
 
@@ -19,6 +19,6 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/Answers/67_Add_Binary/addBinary.tss"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
