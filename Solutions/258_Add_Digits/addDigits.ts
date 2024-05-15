@@ -4,11 +4,10 @@
 
 export function addDigits(num: number): number {
   while (num > 9) {
-    let newNum = 0;
-
-    for (let i = 0; i < num.toString().length; i++) {
-      newNum += parseInt(num.toString()[i]);
-    }
+    const newNum = num
+      .toString()
+      .split("")
+      .reduce((acc, current) => acc + parseInt(current), 0);
 
     num = newNum;
   }
