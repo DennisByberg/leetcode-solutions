@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isValid } from "./validParentheses";
+import { isValid } from "./isValid";
 
 describe(isValid, () => {
   it("Should return true", () => {

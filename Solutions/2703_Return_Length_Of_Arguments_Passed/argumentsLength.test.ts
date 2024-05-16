@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { argumentsLength } from "./ReturnLengthOfArgumentsPassed";
+import { argumentsLength } from "./argumentsLength";
 
 describe(argumentsLength, () => {
   it("Should return 1 if i input the a 5 in the array", () => {

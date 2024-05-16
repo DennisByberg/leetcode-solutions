@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { convertTemperature } from "./convertTheTemperature";
+import { convertTemperature } from "./convertTemperature";
 
 describe(convertTemperature, () => {
   it("should correctly convert Celsius to Kelvin and Fahrenheit", () => {

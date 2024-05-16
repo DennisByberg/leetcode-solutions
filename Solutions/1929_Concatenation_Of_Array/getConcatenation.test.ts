@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getConcatenation } from "./concatenationOfArray";
+import { getConcatenation } from "./getConcatenation";
 
 describe(getConcatenation, () => {
   it("should return [0]", () => {

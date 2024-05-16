@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { sum } from "./AddTwoIntegers";
+import { sum } from "./sum";
 
 describe(sum, () => {
   it("should return 17 if num1 = 12 and num2 = 5", () => {

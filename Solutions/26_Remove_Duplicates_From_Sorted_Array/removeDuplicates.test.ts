@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { removeDuplicates } from "./removeDuplicatesFromSortedArray";
+import { removeDuplicates } from "./removeDuplicates";
 
 describe(removeDuplicates, () => {
   it("should return 0", () => {

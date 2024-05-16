@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findWordsContaining } from "./findWordsContainingCharacter";
+import { findWordsContaining } from "./findWordsContaining";
 
 describe(findWordsContaining, () => {
   it("should return [0]", () => {

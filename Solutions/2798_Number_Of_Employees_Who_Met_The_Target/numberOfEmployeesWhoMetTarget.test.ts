@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { numberOfEmployeesWhoMetTarget } from "./NumberOfEmployeesWhoMetTheTarget";
+import { numberOfEmployeesWhoMetTarget } from "./numberOfEmployeesWhoMetTarget";
 
 describe(numberOfEmployeesWhoMetTarget, () => {
   it("Should return 3 if i input the working hours: [0,1,2,3,4] and the target 2", () => {

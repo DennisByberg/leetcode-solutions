@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { scoreOfString } from "./scoreOfAString";
+import { scoreOfString } from "./scoreOfString";
 
 describe(scoreOfString, () => {
   it("should return 0", () => {
