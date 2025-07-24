@@ -1,5 +1,5 @@
 {
-  "name": "my-leetcode-solutions",
+  "name": "leetcode-solutions",
   "scripts": {
     "test": "vitest"
   },
